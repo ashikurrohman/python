@@ -1,0 +1,28 @@
+from typing import Annotated
+
+x = 1000
+f = x 
+Z =  1000
+variable = "Ashik"
+Variable = 'Ashik'
+a,b,c,d = 10,20,30,40
+a=b=c=d=20
+
+
+def boltu():
+    test = 10
+    another = 20
+    fast = 30
+    print(x)
+boltu()
+print(id(f)) 
+print(id(x))
+
+    
+    # We can store large number in python variable 
+    # We can store int,float
+    # We can make Variable Reference 
+    # Multiple identifiar in single value 
+    
+    
+
