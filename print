@@ -1,0 +1,45 @@
+import builtins
+import os
+import sys
+from pprint import pprint as pp
+
+# String Literal 
+stringLiteral = r'^\w:\\(?:(?:(?:[^\\]+)?|(?:[^\\]+)\\[^\\]+)*)$'
+print(stringLiteral)
+
+"""
+Hello my name is Ashikur Rahman
+"""
+
+print("Hello", "how are you?")
+x = ("apple", "banana", "cherry")
+print(x)
+print("Hello", "how are you?", sep=",")
+print("Hello "+ os.getlogin())
+
+stringAndNumber = "This is " + str(12)
+print(stringAndNumber)
+
+
+
+print(*["Hello, I am Ashikur","Rahman"])
+
+print('Mercury', 'Venus', 'Earth', sep=', ', end=', ')
+print('Mars', 'Jupiter', 'Saturn', sep=', ', end=', ')
+print('Uranus', 'Neptune', 'Pluto', sep=', ')
+
+
+
+print('My name is Ashikur Rahman ',end='\n *')
+print('My name is shofiqul Islam ',end='\n *')
+print('My name is Tarek Osman')
+
+pp("This is comes from pprint built in function ")
+
+
+
+
+
+
+    
+
