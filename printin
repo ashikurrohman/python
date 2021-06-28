@@ -1,0 +1,9 @@
+import builtins 
+
+printIn = builtins.print
+def print(pri,arg):
+    printIn(*pri , **arg)
+    
+printIn("hello","Ashik")
+
+# Result : hello Ashik
