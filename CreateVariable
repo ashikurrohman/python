@@ -1,27 +1,38 @@
+# Standard Variable Assignment 
 
-x = 1000
-f = x 
-Z =  1000
-variable = "Ashik"
-Variable = 'Ashik'
-a,b,c,d = 10,20,30,40
-a=b=c=d=20
+n = 200
+ 
+# Chained Assignment  
+
+n = m = x = y = 300
+
+# Multiple Assignment 
+
+n,m = 200,300
+
+# Variable Type 
+
+n = 30 
+type (n) # Result = int
+
+n = "Hello"
+type(n) # Result = str
+
+# Everything Is an Object in Python 
+
+a = 200  # Value 'a' will change it's called - orphaned object 
+b = a # Result for both = 200 
+ 
+a = "Ashik"  
 
 
-def boltu():
-    test = 10
-    another = 20
-    fast = 30
-    print(x)
-boltu()
-print(id(f)) 
-print(id(x))
+x = 200
+y = 200
 
-    
-    # We can store large number in python variable 
-    # We can store int,float
-    # We can make Variable Reference 
-    # Multiple identifiar in single value 
+x == y # True : Value is Equal 
+id(x) == id(y) # False : both are different identity object 
+
+
     
     
 
