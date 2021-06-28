@@ -1,45 +1,38 @@
-import builtins
-import os
-import sys
-from pprint import pprint as pp
-
-# String Literal 
-stringLiteral = r'^\w:\\(?:(?:(?:[^\\]+)?|(?:[^\\]+)\\[^\\]+)*)$'
-print(stringLiteral)
-
-"""
-Hello my name is Ashikur Rahman
-"""
-
-print("Hello", "how are you?")
-x = ("apple", "banana", "cherry")
-print(x)
-print("Hello", "how are you?", sep=",")
-print("Hello "+ os.getlogin())
-
-stringAndNumber = "This is " + str(12)
-print(stringAndNumber)
+# String Literals 
 
 
+# 3 Ways to declaring a string 
 
-print(*["Hello, I am Ashikur","Rahman"])
+# Single Quotes 
+print('Hello Ashikur Rahman')
 
-print('Mercury', 'Venus', 'Earth', sep=', ', end=', ')
-print('Mars', 'Jupiter', 'Saturn', sep=', ', end=', ')
-print('Uranus', 'Neptune', 'Pluto', sep=', ')
+# Double Quotes 
+print("Hello Ashikur Rahman")
 
+# Triple Quotes
+''' Hello 
+Ashikur Rahman '''
 
+""" Hello Ashikur Rahman """
 
-print('My name is Ashikur Rahman ',end='\n *')
-print('My name is shofiqul Islam ',end='\n *')
-print('My name is Tarek Osman')
-
-pp("This is comes from pprint built in function ")
-
-
-
-
-
-
+print("this is an octal number \275") # Result : 1/2 half
+print("How backlashes works \\") # Result : How Backslashes works \
     
+# String Formating 
+
+strings = "Hello" + "Ashikur Rahman" # Concatenating 2 Strings
+
+# 3 Ways of formating in python
+name = "Ashikur Rahman" 
+
+print("Hello %s" % name)
+print("Hello {0}, I am {1} years old ".format(name,24))
+print(f'I am {name}')
+
+# SEP , END , Flush
+
+print("hello ","Ashikur Rahman"," You are " , 24, "years old")
+
+print("Shofiq","Ashik","Shagor","Sohel"," All of are good frineds.", sep=',')
+print("Shofiq","Ashik","Shagor","Sohel"," All of are good frineds", end='.')
 
