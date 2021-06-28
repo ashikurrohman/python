@@ -1,0 +1,17 @@
+
+allinfo = {
+    'firstName' : "Ashikur",
+    'lastName' : "Rahman",
+    'age' : 24,
+    'subjects' : "Economics"
+    
+}
+
+fulldata = "Hello {firstName} {lastName}, Your are {age} Years Old. And You are a student of  {subjects}.".format(firstName=allinfo['firstName'],lastName=allinfo['lastName'],age=allinfo['age'],subjects=allinfo['subjects'])
+
+
+print(fulldata)
+
+fulldatas = "Hello {firstName} {lastName}, Your are {age} Years Old. And You are a student of  {subjects}.".format(**allinfo)
+
+print(fulldatas)
