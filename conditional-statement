@@ -1,0 +1,29 @@
+
+a = 10
+b = 20
+c = 50
+if a > b :
+    print("A is greater then b")
+else : 
+    print("B is Greater then A")
+    
+    
+print("Ashik") if  4 < 10 else print("Rohim")
+print("sefuda") if False < True else print("Fagol")
+
+
+if a < b and c > b : 
+    print("A is less then B and C is greater then B")
+else : 
+    print("Invalid")
+    
+    
+if a == b : 
+    print("A is equal B")
+elif b == c : 
+    print("C is equal B")
+elif a == c :
+    print("A is equal C")
+    
+else : 
+    print("No one is qual")
