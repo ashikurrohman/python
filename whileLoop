@@ -1,0 +1,31 @@
+
+
+
+number = 10
+while number > 0:
+    number = number -1 
+    if number == 2 :
+        break
+#  print(number)
+ 
+ 
+name = ["Ashik","Rofiq","shofiq","Ratul"]
+s = "boltu" 
+i = 0  
+while i < len(name) : 
+    if name[i] == s :
+     break
+    i = i - 1
+else : 
+    print(s," is not available")
+
+name = ["Ashik","Rofiq","shofiq","Ratul"]
+while len(name) : 
+    print(name.pop())
+ 
+print(name)
+    
+
+
+num = 10
+while num > 0 : num = num - 1 ; print(num)
