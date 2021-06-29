@@ -1,0 +1,18 @@
+# Lists & Tuples 
+
+name = ["Ashik","Shagor","Sohel","Shofiq","Romez"]
+print(name[1:4]) # Result : Shagor,Sohel,Shofiq
+print(name[-4:-2]) # Result : Shagor,Sohel,Shofiq
+
+print(name[:4]) # Result : ["Ashik","Shagor","Sohel","Shofiq","Romez"]
+print(name[0:4]) # Result : ["Ashik","Shagor","Sohel","Shofiq","Romez"]
+
+print('---------')
+
+print(name[2:])
+print(name[2:len(name)])
+
+print('------------')
+
+value = 'foo'
+print(value[:])
