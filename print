@@ -1,6 +1,5 @@
+
 # String Literals 
-
-
 # 3 Ways to declaring a string 
 
 # Single Quotes 
@@ -26,8 +25,11 @@ strings = "Hello" + "Ashikur Rahman" # Concatenating 2 Strings
 name = "Ashikur Rahman" 
 
 print("Hello %s" % name)
-print("Hello {0}, I am {1} years old ".format(name,24))
 print(f'I am {name}')
+
+text =  "Hello {0} , I hope you are well {1}."
+text1 = text.format("Ashikur Rahman","Rofiq")
+print(text1)
 
 # SEP , END , Flush
 
